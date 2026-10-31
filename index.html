@@ -1,0 +1,80 @@
+<!doctype html>
+<!--
+  Job Board Command — Privacy policy page
+  VERSION : v1.0 — 2026-10-31
+  BASED ON: new file (text drafted in chat, 2026-10-31)
+  WHAT IT IS: a single page for GitHub Pages, used as the privacy policy link
+              on the Chrome Web Store listing.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Job Board Command — Privacy Policy</title>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  :root { --navy: #1a237e; --ink: #1a1a2e; --gold: #b8913f; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #ffffff; color: var(--ink); font-family: 'Jost', sans-serif; font-weight: 300; }
+  main { max-width: 680px; margin: 0 auto; padding: 72px 24px 96px; }
+  .mark { width: 56px; height: 56px; display: block; margin-bottom: 28px; }
+  .eyebrow { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); font-weight: 500; }
+  h1 { font-size: 34px; font-weight: 300; color: var(--navy); margin: 10px 0 6px; letter-spacing: 0.3px; }
+  .date { font-size: 13px; color: var(--navy); margin-bottom: 48px; }
+  h2 { font-size: 12px; letter-spacing: 2.4px; text-transform: uppercase; color: var(--navy); font-weight: 500; margin: 40px 0 10px; }
+  p, li { font-size: 16px; line-height: 1.7; }
+  ul { padding-left: 20px; margin: 8px 0; }
+  a { color: var(--navy); }
+  footer { margin-top: 64px; font-size: 13px; color: var(--navy); }
+</style>
+</head>
+<body>
+<main>
+  <svg class="mark" viewBox="-50 -50 100 100" aria-hidden="true">
+    <defs>
+      <g id="key" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="0" y1="-36" x2="0" y2="21"/><circle cx="0" cy="30" r="9"/>
+        <circle cx="0" cy="30" r="2.6" fill="currentColor" stroke="none"/>
+        <line x1="-5" y1="17" x2="5" y2="17"/><path d="M0 -36H10V-31H6V-27H10V-22H0"/>
+      </g>
+    </defs>
+    <use href="#key" transform="rotate(-35) scale(-1 1)" style="color:#1a237e" stroke-width="3.6"/>
+    <use href="#key" transform="rotate(35)" style="color:#ffffff" stroke-width="9"/>
+    <use href="#key" transform="rotate(35)" style="color:#b8913f" stroke-width="3.6"/>
+  </svg>
+
+  <div class="eyebrow">Job Board Command</div>
+  <h1>Privacy Policy</h1>
+  <div class="date">Effective October 31, 2026</div>
+
+  <p>Job Board Command is a Chrome extension that helps its users track remote job applications in a Google Sheet they own.</p>
+
+  <h2>What it stores</h2>
+  <p>Job listings, application status, notes, priorities and the job search profile entered in the sidebar: target titles, target role, resume text and filters. All of it is saved in the user's own Google Sheet, through a Google Apps Script the user controls. The extension keeps only basic settings in Chrome storage, such as the linked sheet and the selected job seeker.</p>
+
+  <h2>What it sends</h2>
+  <ul>
+    <li>To find jobs, it requests public listings from job boards (Remotive, RemoteOK, Jobicy, We Work Remotely).</li>
+    <li>To score how well a job fits, it sends the job description, target titles and resume text to Google's Gemini API.</li>
+  </ul>
+  <p>Nothing else is shared.</p>
+
+  <h2>Gmail</h2>
+  <p>When the user chooses a message template, the extension can place it into an open Gmail compose window. It does not read, store or send the content of the user's emails.</p>
+
+  <h2>What it does not do</h2>
+  <p>It does not sell data, show ads, or use analytics or tracking.</p>
+
+  <h2>Google user data</h2>
+  <p>Use of information received from Google APIs follows the <a href="https://developer.chrome.com/docs/webstore/program-policies/user-data-faq">Chrome Web Store User Data Policy</a>, including the Limited Use requirements.</p>
+
+  <h2>Your control</h2>
+  <p>Delete any row in your sheet to remove that data, or uninstall the extension to stop all collection.</p>
+
+  <h2>Contact</h2>
+  <p>Mouhssine Zerrak · <a href="mailto:mouhssinezerrak@pm.me">mouhssinezerrak@pm.me</a></p>
+
+  <footer>© 2026 Mouhssine Zerrak</footer>
+</main>
+</body>
+</html>
